@@ -1,0 +1,13 @@
+// variable - '$' symbol to make something variable
+$font:Helvetica, sans-serif;
+$color:#555;
+
+//Nesting the styles
+body{
+    font: 100% $font;
+    color: $color;
+}
+
+input{
+    border: 1px solid green;
+}
